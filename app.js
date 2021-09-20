@@ -36,6 +36,7 @@ app.use(
 store.sync();
 
 app.use('/', indexRouter);
+// This is bananas
 app.use('/bananas', bananasRouter);
 
 // catch 404 and forward to error handler
